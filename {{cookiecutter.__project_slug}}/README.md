@@ -135,14 +135,14 @@ We use Poetry to manage the depdencies for us. The poetry.lock file is committed
 <!--
 What and how do you test it? E.g. do you have automatic unit tests, code coverage checks, tests for code style etc.
 -->
-We provide some simple tests to check that the processing works as expected. Additionally we use flake8 to make sure we adhere to pep8 code style standards this ensures the code remains readable. Because this is only worked on by a single developer these checks are simply ran manually. The commands to run it can be found in the developer documentation.
+We provide some simple tests to check that the processing works as expected. Additionally we use flake8 to make sure we adhere to pep8 code style standards this ensures the code remains readable. Because this code is only worked on by a single developer these checks are simply ran manually. The commands to run it can be found in the developer documentation.
 
 ### Version Control and Versioning
 <!--
 Describe how you will use version control and versioning. For simple scripts it can remain simple. If you want to do more complex things (e.g. proper semantic versioning for a package that you want to publish externally you can ask the SDST for advice.)
 
 -->
-We will use git as a version control system. Becasue the project is being worked on by a single developer we keep the flow simple. Once changes are ready they are committed to the main branch. If we want to refer to a specific version of the software (e.g. a specific version used in a certain analysis) then we refer to the specific commit that was used.
+We will use git as a version control system. Because the project is being worked on by a single developer we keep the flow simple. Once changes are ready they are committed to the main branch. If we want to refer to a specific version of the software (e.g. a specific version used in a certain analysis) then we refer to the specific commit that was used.
 
 ### Describe project resources
 <!--
@@ -158,7 +158,7 @@ This software does not process any personal data and does not send any data to 3
 
 ### Software licensing
 <!--
-What licensing will your software use? For private projects this is not very relevant. Without a license they will be considere property of QuTech. For public repositories this is very important to consider. If you make your software public the license will determine who and how the software can be used. This also has implications for intelectual property (copyright).
+What licensing will your software use? For private projects this is not very relevant. Without a license they will be considered property of QuTech. For public repositories this is very important to consider. If you make your software public the license will determine who and how the software can be used. This also has implications for intellectual property (copyright).
 -->
 It is an internal QuTech repository. The software will therefore remain proprietary.
 

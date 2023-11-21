@@ -10,7 +10,6 @@ try:
     data = pd.read_csv(INPUT_FILE_PATH)
 except FileNotFoundError:
     print(f"File '{INPUT_FILE_PATH}' not found. Make sure the file exists.")
-    exit()
-
-filtered_df = filter_outliers(data, COLUMN_NAME, THRESHOLD)
-filtered_df.to_csv(OUTPUT_PATH, index=False)
+else:
+    filtered_df = filter_outliers(data, COLUMN_NAME, THRESHOLD)
+    filtered_df.to_csv(OUTPUT_PATH, index=False)

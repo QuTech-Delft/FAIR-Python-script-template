@@ -1,6 +1,6 @@
 # FAIR Python script template (QSMM level 2)
 
-This repository provides a cookiecutter template to get started with a FAIR python script. This corrseponds to a QSSM level 2 project within QuTech.
+This repository provides a cookiecutter template to get started with a FAIR python script. This corrseponds to a QSMM level 2 project within QuTech.
 Using this template will help the reliability of the code you use and develop. It will also help you to make your code more reusable and reproducible. For more information on the FAIR principles see [this page](https://www.go-fair.org/fair-principles/). For more information on best practices for software development at QuTech see [QuTech's data and software information site](https://qutech-delft.github.io/data-and-software-info/).
 
 ## Pre-requisites
@@ -17,7 +17,7 @@ We assume you have installed (installation instructions can be found in the link
 To use the template run the following command:
 
 ```bash
-cookiecutter gh:QuTech-Delft/fair-python-script-template
+cookiecutter gh:QuTech-Delft/fair-python-script-templa te
 ```
 
 You will get asked a few questions about the project you want to create. After answering these questions the template will be created in the current directory.
@@ -26,17 +26,19 @@ You will get asked a few questions about the project you want to create. After a
 
 You have just created an instance of the template for your project. What now?
 
-First setup a repository for your project. Discuss with your supervisor what the best place for this is (some research groups have their own groups for this on either gitlab or github). Once you have created this repository you can push the code you just created to this repository. To do this run the following commands:
+First set up a repository for your project. Discuss with your supervisor what the best place for this is (some research groups have their own groups for this on either gitlab or github). Once you have created this repository you can push the code you just created to this repository. To do this run the following commands:
 
 ```bash
 git init
 git add .
 git commit -m "Initial commit"
 git remote add origin <url of your repository>
-git push -u origin master
+git push -u origin <branch name>
 ```
 
-You can get started developing your own code! Start by opening the README.md file of your new repository. You will notice that additionally some of the values you answered have been filled in in this readme. Next to that there are also instruction on how to install, use, extend and test the example script that is provided in this repository. You can use these instructions to start developing your own code. Make sure to keep updating the readme with relevant documentation for your own code and to keep pushing your changes to your remote git repositry.
+The branch name should be the default branch of your repository (usually this is `main` or `master`). You can check this on the website of your repository.
+
+You can get started developing your own code! Start by opening the README.md file of your new repository. You will notice that additionally some of the values you answered have been filled in in this readme. Next to that there are also instructions on how to install, use, extend and test the example script that is provided in this repository. You can use these instructions to start developing your own code. Make sure to keep updating the readme with relevant documentation for your own code and to keep pushing your changes to your remote git repository.
 
 ## Open sourcing your code
 
