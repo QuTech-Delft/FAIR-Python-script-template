@@ -17,7 +17,7 @@ We assume you have installed (installation instructions can be found in the link
 To use the template run the following command:
 
 ```bash
-cookiecutter gh:QuTech-Delft/fair-python-script-templa te
+cookiecutter gh:QuTech-Delft/fair-python-script-template
 ```
 
 You will get asked a few questions about the project you want to create. After answering these questions the template will be created in the current directory.
