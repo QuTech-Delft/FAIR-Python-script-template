@@ -1,0 +1,19 @@
+{
+  "author_name": "Audrey Roy Greenfeld",
+  "author_email": "audreyr@example.com",
+  "project_name": "example",
+  "__project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "module_name": "module",
+  "project_short_description": "A simple script to filter out outliers.",
+  "project_purpose": "This software was written for research project X. For project X we needed a method to transform the output data so that outliers are filtered out. This software only does this filtering. Further analysis/visualization of the filtered data is not included in this software.",
+  "system_overview": "This software sits in between the output of the experiment and the analysis of the results. A basic overview of the system is as follows:\nexperiment -> output data -> this processing script -> analysis/visualization scripts.",
+  "__prompts__": {
+    "author_name":  "Who is the author for this project?",
+    "author_email": "Which e-mail can be used to reach the author?",
+    "project_name": "What is the name of this project?",
+    "module_name": "What should be the name of your python module?",
+    "project_short_description": "Describe briefly (1-2 lines) what this project is about (see the provided example for inspiration)",
+    "project_purpose": "Describe the purpose of the project. In which context was it created? What will your piece of software do and what will it not do? (see the provided example for inspiration)",
+    "system_overview": "(if applicable) Describe how this project fits into the whole system"
+  }
+}
